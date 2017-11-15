@@ -1,0 +1,9 @@
+{
+  "name": "train-radio-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/turf": "^5.0.4"
+  }
+}
