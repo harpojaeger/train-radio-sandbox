@@ -14,16 +14,16 @@ const texasEagleStripped = require('./texaseagle_stripped.json')
 // Springfield, IL Amtrak station coordinates
 const SPIStation = [-89.6518184, 39.8023754]
 
-console.log('texas eagle stripped prop names:', Object.getOwnPropertyNames(texasEagleStripped))
+// console.log('texas eagle stripped prop names:', Object.getOwnPropertyNames(texasEagleStripped))
 console.log('texas eagle has', texasEagleStripped.features.length,'features')
 
 const texasEagleWays = texasEagleStripped.features.reduce((acc, val) => {
   return [...acc,...val.geometry.coordinates]
 },[])
 
-console.log(texasEagleWays)
+// console.log(texasEagleWays)
 
-console.log('texas eagle stripped route length:', turf.length(turf.lineString(texasEagleWays)))
+console.log('texas eagle stripped route length:', turf.length(turf.lineString(texasEagleWays, {units: "miles"})))
 
 
 // const nearestPointToSPI = turf.nearestPointOnLine(turf.lineString(texasEagleStripped), SPIStation, {units: 'miles'})
