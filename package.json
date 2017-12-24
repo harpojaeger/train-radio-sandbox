@@ -6,6 +6,7 @@
   "dependencies": {
     "@turf/turf": "^5.0.4",
     "chai": "^4.1.2",
+    "geojson-validation": "^0.2.0",
     "mocha": "^4.0.1"
   },
   "scripts": {

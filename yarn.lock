@@ -1106,6 +1106,10 @@ geojson-rbush@2.1.0:
     "@turf/meta" "*"
     rbush "*"
 
+geojson-validation@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/geojson-validation/-/geojson-validation-0.2.0.tgz#0ebc6701d2d4d4f35e56cd8f51aae5c2bab5f05a"
+
 get-closest@*:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/get-closest/-/get-closest-0.0.4.tgz#269ac776d1e6022aa0fd586dd708e8a7d32269af"
