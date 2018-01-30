@@ -1,0 +1,5 @@
+[out:json];
+rel["name"="Texas Eagle"];
+way(r)["railway"="rail"];
+
+out geom qt;
